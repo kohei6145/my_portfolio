@@ -276,7 +276,7 @@ html body {
 .portfolio {
   background-image: url(image/PF_pf.jpg);
   margin: 0;
-  padding: 80px 50px;
+  padding: 80px 200px;
   background-color: #222222;
 }
 
@@ -287,7 +287,7 @@ html body {
 }
 
 .pf-container a {
-  width: 32%;
+  width: 44%;
   color: white;
   text-decoration: none;
 }
