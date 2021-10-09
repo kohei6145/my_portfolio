@@ -264,7 +264,7 @@ html body {
 
 .skill-item img {
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 .skill-item p {
@@ -313,7 +313,7 @@ html body {
 }
 
 .pf-item .caption p {
-  line-height: 27px;
+  line-height: 1.9vw;
 }
 
 .pf-item:hover .caption {
@@ -322,7 +322,7 @@ html body {
 
 .pf-item img {
   width: 100%;
-  height: 300px;
+  height: 280px;
 }
 
 .pf-item p {
@@ -445,7 +445,7 @@ html body {
 
 .follow-me {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin-bottom: 100px;
