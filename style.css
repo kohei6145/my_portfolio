@@ -507,6 +507,9 @@ html body {
 /* ーーーーーーーーーーーーーレスポンシブーーーーーーーーーーーーー */
 
 @media screen and (max-width: 1000px) {
+  .skill-container {
+    display: block;
+  }
   .skill-list {
     display: block;
     text-align: center;
@@ -520,6 +523,7 @@ html body {
   }
   .pf-container {
     text-align: center;
+    display: block;
   }
   .pf-item {
     margin-bottom: 30px;
