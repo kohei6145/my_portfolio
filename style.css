@@ -506,6 +506,30 @@ html body {
 
 /* ーーーーーーーーーーーーーレスポンシブーーーーーーーーーーーーー */
 
+@media screen and (max-width: 1000px) {
+  .skill-list {
+    display: block;
+    text-align: center;
+  }
+  .skill-item {
+    margin: 0 auto 30px;
+    width: 40%;
+  }
+  .skill-item p {
+    margin-top: 10px;
+  }
+  .pf-container {
+    text-align: center;
+  }
+  .pf-item {
+    margin-bottom: 30px;
+    width: 60%;
+  }
+  .pf-item .caption p {
+    line-height: 2.8vw;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .top-image h1 {
     font-size: 50px;
@@ -568,6 +592,10 @@ html body {
     margin-bottom: 80px;
   }
 
+  .skill-item img {
+    width: 70%;
+  }
+
   .skill-item p {
     text-align: center;
     font-size: 28px;
@@ -597,6 +625,11 @@ html body {
     margin-bottom: 60px;
   }
 
+  .pf-item .caption p {
+    line-height: 3.5vw;
+    font-size: 16px;
+  }
+
   .service {
     padding: 80px 20px;
   }
@@ -609,6 +642,10 @@ html body {
 
   .service-item {
     width: 100%;
+  }
+
+  .service-item-cont {
+    margin: 0 12%;
   }
 
   .service-item:first-child {
@@ -632,5 +669,15 @@ html body {
 
   .copy-right {
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .pf-item {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+  .pf-item .caption p {
+    line-height: 20px;
   }
 }
